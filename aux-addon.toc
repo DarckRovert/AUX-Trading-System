@@ -1,0 +1,104 @@
+## Interface: 11200
+## Author: shirsig
+## OptionalDeps: ShaguTweaks
+## Title: aux
+## Notes: Auction House replacement
+## SavedVariables: aux, AuxTradingMarketData, AuxTradingAccounting, AuxPriceHistory
+
+libs\package.lua
+libs\T.lua
+libs\ChatThrottleLib.lua
+
+aux-addon.lua
+util.lua
+control.lua
+color.lua
+gui\core.lua
+frame.lua
+util\persistence.lua
+util\sort.lua
+util\money.lua
+core\cache.lua
+util\info.lua
+core\history.lua
+core\disenchant.lua
+util\filter.lua
+util\completion.lua
+core\slash.lua
+core\scan.lua
+util\scan.lua
+core\stack.lua
+core\post.lua
+core\tooltip.lua
+core\shortcut.lua
+
+gui\listing.lua
+gui\auction_listing.lua
+gui\item_listing.lua
+gui\purchase_summary.lua
+
+tabs\search\core.lua
+tabs\search\results.lua
+tabs\search\saved.lua
+tabs\search\filter.lua
+tabs\search\frame.lua
+
+tabs\post\core.lua
+tabs\post\frame.lua
+
+tabs\auctions\core.lua
+tabs\auctions\frame.lua
+
+tabs\bids\core.lua
+tabs\bids\frame.lua
+
+core\crafting.lua
+
+tabs\trading\core.lua
+tabs\trading\strategies.lua
+tabs\trading\groups.lua
+tabs\trading\scan_integration.lua
+tabs\trading\market_analysis.lua
+tabs\trading\automation.lua
+tabs\trading\ml_patterns.lua
+tabs\trading\optimization.lua
+tabs\trading\notifications.lua
+tabs\trading\dashboard.lua
+tabs\trading\ui_integration.lua
+tabs\trading\dashboard_ui.lua
+tabs\trading\config_ui.lua
+tabs\trading\alerts_ui.lua
+tabs\trading\tooltips_advanced.lua
+## Módulos adicionales deshabilitados temporalmente
+## tabs\trading\icon_system.lua
+## tabs\trading\sort_system.lua
+## tabs\trading\search_system.lua
+## tabs\trading\filter_system.lua
+## tabs\trading\export_system.lua
+## tabs\trading\backup_system.lua
+tabs\trading\helpers.lua
+tabs\trading\dealfinding.lua
+tabs\trading\price_history.lua
+tabs\trading\integration.lua
+
+tabs\trading\sniper.lua
+tabs\trading\market_data.lua
+tabs\trading\full_scan.lua
+tabs\trading\accounting.lua
+tabs\trading\log.lua
+tabs\trading\monopoly.lua
+tabs\trading\monopoly_ui.lua
+tabs\trading\vendor.lua
+tabs\trading\vendor_ui.lua
+## Módulos TSM-inspired
+tabs\trading\auctioning.lua
+tabs\trading\crafting.lua
+tabs\trading\item_tracker.lua
+tabs\trading\auctioning_ui.lua
+tabs\trading\crafting_ui.lua
+tabs\trading\item_tracker_ui.lua
+tabs\trading\frame.lua
+
+localization.lua
+
+
